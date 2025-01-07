@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://kit.fontawesome.com/698b951eac.js" crossorigin="anonymous"></script>
+</head>
+<body class="h-screen flex justify-center bg-[#E9EBD8]">
+
+    <div id="wrapper" class="mt-[70px]">
+        <main class="w-[1000px] h-auto bg-[#648767] shadow-[0px_0px_100px_rgba(58,125,68,0.45)] rounded-[30px] p-7
+        "> 
+            <div class="flex items-center gap-5">
+            
+                <!-- task name -->
+                <input type="text" required placeholder="Enter task name: " class="taskInputName w-[360px] h-[60px] rounded-[82px] pl-8 text-[24px] font-margarine placeholder:text-black focus:outline-0 hover:cursor-pointer
+                "> 
+                
+                <!-- task description -->
+                
+                <input type="text" required placeholder="Enter task description: " class="taskInputDescr w-[360px] h-[60px] rounded-[82px] pl-8 text-[24px] font-margarine placeholder:text-black focus:outline-0 hover:cursor-pointer
+                "> 
+            
+                <input type="button" value="Add!" class="addBtn w-[126px] h-[60px] bg-white rounded-[82px] ml-5 text-[#35605A] text-[26px] font-margarine hover:cursor-pointer
+                ">
+            </div>
+            <div id="taskContainer" class="mt-5"></div>
+        </main>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Sweet alert 2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Js -->
+    <script src="script.js"></script>
+</body>
+</html>

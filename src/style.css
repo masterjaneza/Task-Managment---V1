@@ -1,0 +1,61 @@
+/* Font */
+
+/* Font - Margarine */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca&family=Lobster&family=Margarine&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap');
+
+/* Necesarry tailwind code*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default state of the wrapper */
+/* #wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Add a class to the body when the alert is shown */
+/* body.no-scroll #wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */ 
+
+::placeholder {
+    color: black;
+}
+
+.addBtn, .taskInput {
+    transition: 0.5s;
+}
+
+.addBtn:hover, .taskInput:hover {
+    transform: scale(1.025);
+}
+
+.addBtn:hover {
+    transform: scale(1.1);
+}
+
+/* .newTask {
+    width: '900px';
+    height: '130px';
+    background-color: 'white';
+    border-radius: '16px';
+    margin-top: '25px';
+    
+} */
+
+
+/* 
+input[type="text"]::placeholder {
+    color: red;   
+} */

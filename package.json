@@ -1,0 +1,22 @@
+{
+  "name": "task-managment",
+  "version": "1.0.0",
+  "description": "Task Managment",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/style.css -o public/output.css -w"
+  },
+  "keywords": [],
+  "author": "Davit Janezahvili",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "concurrently": "^8.0.0"
+  }
+}
