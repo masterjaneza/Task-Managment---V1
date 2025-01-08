@@ -1,21 +1,17 @@
 {
   "name": "task-managment",
   "version": "1.0.0",
-  "description": "Task Managment",
-  "main": "index.js",
- "scripts": {
-  "build": "npx tailwindcss -i src/style.css -o public/output.css --minify",
-  "dev": "concurrently \"tailwindcss -i src/style.css -o public/output.css --watch\" \"live-server public\""
-},
+  "description": "Task Management",
+  "scripts": {
+    "build": "npx tailwindcss -i src/style.css -o public/output.css --minify",
+    "dev": "concurrently \"npx tailwindcss -i src/style.css -o public/output.css --watch\" \"live-server public\""
+  },
   "dependencies": {
-      "jquery": "^3.7.1",
-      "tailwindcss": "^3.4.17",
-      "postcss": "^8.4.9",
-      "autoprefixer": "^10.4.20"
+    "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
-      "concurrently": "^8.0.0",
-      "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "concurrently": "^8.0.0"
   },
   "engines": {
     "node": "20.x"
