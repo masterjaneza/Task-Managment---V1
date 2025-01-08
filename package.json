@@ -4,9 +4,7 @@
   "description": "Task Managment",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i src/style.css -o public/output.css --minify",
-    "postinstall": "cross-env chmod +x node_modules/.bin/*"
-
+    "build": "tailwindcss -i src/style.css -o public/output.css --minify"
   },
   "keywords": [],
   "author": "Davit Janezahvili",
