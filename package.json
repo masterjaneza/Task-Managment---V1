@@ -4,7 +4,9 @@
   "description": "Task Managment",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i src/style.css -o public/output.css --minify"
+    "build": "tailwindcss -i src/style.css -o public/output.css --minify",
+    "postinstall": "cross-env chmod +x node_modules/.bin/*"
+
   },
   "keywords": [],
   "author": "Davit Janezahvili",
@@ -15,6 +17,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "concurrently": "^8.0.0",
+    "cross-env": "^7.0.3",
     "live-server": "^1.2.2",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17"
