@@ -4,9 +4,7 @@
   "description": "Task Managment",
   "main": "index.js",
   "scripts": {
-    "build": "node_modules\\.bin\\tailwindcss -i src/style.css -o public/output.css --minify",
-    "postinstall": "echo no-op", 
-    "start": "live-server public",
+   "build": "npx tailwindcss -i src/style.css -o public/output.css --minify",
     "dev": "concurrently \"tailwindcss -i src/style.css -o public/output.css --watch\" \"live-server public\""
   },
   "dependencies": {
