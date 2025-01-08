@@ -4,8 +4,8 @@
   "description": "Task Managment",
   "main": "index.js",
   "scripts": {
-   "build": "npx tailwindcss -i src/style.css -o public/output.css --minify",
-    "dev": "concurrently \"tailwindcss -i src/style.css -o public/output.css --watch\" \"live-server public\""
+    "build": "npx tailwindcss -i src/style.css -o public/output.css --minify",
+    "dev": "concurrently \"npx tailwindcss -i src/style.css -o public/output.css --watch\" \"live-server public\""
   },
   "dependencies": {
     "tailwindcss": "^3.4.17"
@@ -16,5 +16,6 @@
   },
   "engines": {
     "node": "20.x"
-  }
+  },
+  "license": "ISC"
 }
