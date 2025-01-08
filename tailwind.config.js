@@ -1,9 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.{html,js,ts,jsx,tsx}',  // Scans all files with these extensions in the src folder
-    './public/**/*.html',               // Scans all HTML files in the public folder
-    './components/**/*.{html,js,ts,jsx,tsx}', // Scans files in a components folder if you have one
+    './public/**/*.html',   // Ensure this includes the HTML files in the public directory.
+    './src/**/*.{js,jsx,ts,tsx,css}'
   ],
   theme: {
     extend: {
