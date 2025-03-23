@@ -1,5 +1,4 @@
-
-
+// filepath: c:\Users\datoj\OneDrive\Desktop\Task Managment - Tailwind + jQuery\public\registration.js
 let userName = document.getElementById('userName');
 let userEmail = document.getElementById('userEmail');
 let password = document.getElementById('password1');
@@ -40,7 +39,6 @@ function registrationInfo() {
                 popup: 'blurred-background'
             }
         }).then(() => {
-
             setTimeout(() => {
                 window.location.href = 'login.html';
             }, 500)            
@@ -57,4 +55,3 @@ function registrationInfo() {
         })
     }
 }
-

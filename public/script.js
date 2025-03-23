@@ -1,3 +1,14 @@
+document.addEventListener('DOMContentLoaded', function () {
+    // Check if user is logged in
+    if (window.location.pathname === '/index.html' && !localStorage.getItem('loggedIn')) {
+        window.location.href = 'login.html';
+    }
+
+    // Existing task management code...
+});
+
+
+
 // Get elements from html file
 let inpName = $('.taskInputName');
 let inpDescr = $('.taskInputDescr');
