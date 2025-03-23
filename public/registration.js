@@ -1,4 +1,3 @@
-// filepath: c:\Users\datoj\OneDrive\Desktop\Task Managment - Tailwind + jQuery\public\registration.js
 let userName = document.getElementById('userName');
 let userEmail = document.getElementById('userEmail');
 let password = document.getElementById('password1');
@@ -55,3 +54,4 @@ function registrationInfo() {
         })
     }
 }
+

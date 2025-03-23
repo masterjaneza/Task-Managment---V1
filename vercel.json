@@ -1,16 +1,14 @@
 {
   "builds": [
-    {
-      "src": "src/style.css",
-      "use": "@vercel/static-build"
-    }
+      {
+          "src": "src/style.css",
+          "use": "@vercel/static-build"
+      }
   ],
   "env": {
-    "NODE_ENV": "production"
+      "NODE_ENV": "production"
   },
-  "redirects": [
-    { "source": "/", "destination": "/registration.html", "permanent": false },
-    { "source": "/index.html", "destination": "/login.html", "permanent": false },
-    { "source": "/products.html", "destination": "/login.html", "permanent": false }
+  "rewrites": [
+      { "source": "/", "destination": "/registration.html" }
   ]
 }
