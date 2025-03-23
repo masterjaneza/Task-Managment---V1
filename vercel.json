@@ -9,8 +9,8 @@
     "NODE_ENV": "production"
   },
   "redirects": [
-    { "source": "/", "destination": "/pages/registration.html", "permanent": false },
-    { "source": "/index.html", "destination": "/pages/login.html", "permanent": false },
-    { "source": "/products.html", "destination": "/pages/login.html", "permanent": false }
+    { "source": "/", "destination": "/registration.html", "permanent": false },
+    { "source": "/index.html", "destination": "/login.html", "permanent": false },
+    { "source": "/products.html", "destination": "/login.html", "permanent": false }
   ]
 }
