@@ -31,8 +31,8 @@ A modern, responsive task management web application designed to help you organi
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/masterjaneza/the-world-of-movies.git
-   cd the-world-of-movies
+   git clone https://github.com/masterjaneza/Task-Managment---V1
+      cd the-world-of-movies
    npm install
    npm run dev
    ```
