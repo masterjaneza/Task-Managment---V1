@@ -32,7 +32,7 @@ A modern, responsive task management web application designed to help you organi
 1. **Clone the repository**
    ```bash
    git clone https://github.com/masterjaneza/Task-Managment---V1
-      cd the-world-of-movies
+   cd Task-Managment---V1
    npm install
    npm run dev
    ```
