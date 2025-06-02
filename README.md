@@ -27,16 +27,21 @@ A modern, responsive task management web application designed to help you organi
 
 --- 
 
-## ⚙️ Setup & Installation
+---
 
-1. **Clone the repository**
+# ⚙️ Installation – Task Management V1
+
+1. **Clone or Download:**
+
    ```bash
-   git clone https://github.com/masterjaneza/Task-Managment---V1
-   cd Task-Managment---V1
-   npm install
-   npm run dev
-   ```
+   git clone https://github.com/masterjaneza/Task-Managment---V1.git
 
+**Open the Project:**
+
+- Open `index.html` in your browser  
+  **or**
+- Use **Live Server** in VS Code.
+- 
 ---
 
 ## 🧪 License
